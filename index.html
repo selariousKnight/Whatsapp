@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="whatsapp.css">
+    <script src='whatsapp.js'></script>
+    <a href="https://icons8.com/icon/98963/menu-vertical"></a>
+    <a href="https://icons8.com/icon/59878/search"></a>
+    <a href="https://icons8.com/icon/85103/camera"></a>
+    <a href="https://icons8.com/icon/12921/phone"></a>
+    <a href="https://icons8.com/icon/1364/video-call"></a>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+    <title>My fisrt Code</title>
+</head>
+<body>  
+ <div class="bg-container">
+<div class="header">
+    <div class="name-container">
+    <h1 class="main-headng">WHATSAPP</h1>
+    <img class="search-icon" src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png"/>
+    <img class="options-icon" src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"/>
+</div>
+<div class="calls-and-staus-section">
+    <lord-icon class="camera-image"
+    src="https://cdn.lordicon.com/vixtkkbk.json"
+    trigger="loop">
+</lord-icon>
+    <button class="status-chats" onclick="statuscharts()" id="chatButtonid">CHATS</button>
+    <button class="status-status" onclick="statusStatus()" id="statusButtonid">STATUS</button>
+    <button class="status-calls" onclick="statusCalls()" id="callButtonid">CALLS</button>
+</div>
+</div>
+<div class="chat-container" id="chartContainer">
+    <div class="first-chat">
+        <img src="https://picsum.photos/id/237/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Mani kanta</h1>
+            <p class="message">What are you doing??</p>
+        </div>
+        <p class="time">12:17 am</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/seed/picsum/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Srinath@Vlit</h1>
+            <p class="message">Can we meet Tomarrow</p>
+        </div>
+        <p class="time">Yesterday</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300/?blur" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Varun@Vlit</h1>
+            <p class="message">Hey could you help me learn Programming</p>
+        </div>
+        <p class="time">Yesterday</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300?grayscale" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kalyan@Vlit</h1>
+            <p class="message">Hey How's your  job??</p>
+        </div>
+        <p class="time">Yesterday</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300/?blur=2" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kiran@Vlit</h1>
+            <p class="message">Call Me Once</p>
+        </div>
+        <p class="time">Yesterday</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300.webp" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kishore@Vlit</h1>
+            <p class="message">What about your Joining date</p>
+        </div>
+        <p class="time">Yesterday</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Shekar@Vlit</h1>
+            <p class="message">Are you trying to get Government job??</p>
+        </div>
+        <p class="time">Yesterday</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/id/1/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Raghu@Vlit</h1>
+            <p class="message">Book Movie Tickets </p>
+        </div>
+        <p class="time">Yesterday</p>
+    </div>
+</div>
+<div class="statusContainer" id="statusContainer">
+    <div class="first-chat">
+        <img src="https://picsum.photos/id/237/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">My Status</h1>
+            <p class="message">Tap to add Status update</p>
+        </div>
+    </div>
+    <div class="view-Updates">
+        <p>Viewed Updates</p>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/id/237/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Pavan kumar</h1>
+            <p class="message">Yesterday</p>
+        </div>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Srinath</h1>
+            <p class="message">Yesterday</p>
+        </div>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300/?blur=2" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kishore</h1>
+            <p class="message">Yesterday</p>
+        </div>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kiran</h1>
+            <p class="message">Yesterday</p>
+        </div>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300/?blur" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kalyan</h1>
+            <p class="message">Yesterday</p>
+        </div>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300/?blur=2" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Mani kanta</h1>
+            <p class="message">Yesterday</p>
+        </div>
+    </div>
+</div>
+<div class="calls-container" id="callsContainer">
+    <div class="first-chat">
+        <img src="https://picsum.photos/id/237/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Mani kanta</h1>
+            <p class="message">What are you doing??</p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA/wD/AP+gvaeTAAAA2ElEQVRIie3UP0oDQRiG8d+kEJMg5gqJRwhCsLYR8VJ6inSSQ8Qb6CWiWKRQCCSgCDZqsRtYw84G3ElA2Ac+GOYdeJh/Hw0N+yagh0uMMEAfR+jiEG184BNveMcTZrjHXT5XRgfXGMIC3zXqNSI5x2O+ZqmmZF1Fehjjq5AnF11hXpInFd1W5MtQsvW/EGRHFSL5qpVAUpRFSSmqJKWo8gpSiibbFvy7570m+mFfakoWkZP61YKCrHle4AwneXVxjIN8vNlUn2WN9QFTrCKyDm5wGskbGnbID/YMsVvkC4dpAAAAAElFTkSuQmCC"/>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/seed/picsum/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Srinath@Vlit</h1>
+            <p class="message">Can we meet Tomarrow</p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAC3UlEQVRoge2YTWgTQRiGn9lgrfUPEYqKCHoXlArSCupF8NCCBy8etIdSWrulaoQ2iSABaZO0iiJNYixS8aAieBFE7FWpWIpeREHRgx5K9CDUv9ra/bxUTWKy2U0mEcs+kEPenf3mfTM72ZkBDw8PD48yULZX49EWFJeBdTat3iLSjhkc0+rMIUaRqwnszQNsQqlRbY5cYh9A2OiwzobyrZSGfYD/gEUfwKqKizIoFuBjVVyUQbFJ/KFKPkrGPoDiVZV8lEyxAONV8lEyReaA9cBZGRUq30pp2AdIzz4C9c6mhSDip6svoteWc+wDhMMWcL3A1XlEtWMGz2t35YLiLzKfGgF+5KhziBzG7LtSEVcuKB6go/c1cDNHfYYZvFERRy5xtpQQNUD2KGwnMbinIo5c4iyA2fcCRTxbtEaJh1dUwJMrnC/m5mZOA1MZymZU7QXtjlziPEBPeBpoAyRDbSMePabblBvcLae7AveA4SxNcY7kYLNGT65wvx9YNtOLMJmh+BDrFsnIXn22nGO/qS9Eqn89lm8iZ8v5CcvaR3fosR5rzihtR9ZxagrLaAGmM9SVGMYYw9HdWpw5pLQR+EU82oTiPpD5d/oVOLgwXwqTiIaA/oVvs8CXPK3eIBzHDDwsVKa8PbEZGAejGficodYBd0hEzYL3JWM9/DEPUAOsyfNpQHHNzkJ5I/CLS7EdWHIXqM/ShRTfa07g93/7rcVjbSgZcdV3V6BgWz2nEp19k/iMJuBllq7ooHb2KcmBXQDEI4dQkkLXD6ezEACp6GrmuQocyNPTE4StwBLXdW1GQG8AABFFInYSxRmgVkvNij9CmSglmIGzGFYDMKG9fg6VO5nrDD3n/UwjQitCulLd6H+E8nExvArfUj9KdQNrXd9f1Tlgx9DQcuqsVpQcAXY6ukdIYwYKHvFXN0AmicgWxNiPkkZQ20Dq+fs9ksYQk6PB2//GpIeHh8ei5yePyK8E5ckfwQAAAABJRU5ErkJggg=="/>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300/?blur" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Varun@Vlit</h1>
+            <p class="message">Hey could you help me learn Programming</p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA/wD/AP+gvaeTAAAA2ElEQVRIie3UP0oDQRiG8d+kEJMg5gqJRwhCsLYR8VJ6inSSQ8Qb6CWiWKRQCCSgCDZqsRtYw84G3ElA2Ac+GOYdeJh/Hw0N+yagh0uMMEAfR+jiEG184BNveMcTZrjHXT5XRgfXGMIC3zXqNSI5x2O+ZqmmZF1Fehjjq5AnF11hXpInFd1W5MtQsvW/EGRHFSL5qpVAUpRFSSmqJKWo8gpSiibbFvy7570m+mFfakoWkZP61YKCrHle4AwneXVxjIN8vNlUn2WN9QFTrCKyDm5wGskbGnbID/YMsVvkC4dpAAAAAElFTkSuQmCC"/>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300?grayscale" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kalyan@Vlit</h1>
+            <p class="message">Hey How's your  job??</p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAC3UlEQVRoge2YTWgTQRiGn9lgrfUPEYqKCHoXlArSCupF8NCCBy8etIdSWrulaoQ2iSABaZO0iiJNYixS8aAieBFE7FWpWIpeREHRgx5K9CDUv9ra/bxUTWKy2U0mEcs+kEPenf3mfTM72ZkBDw8PD48yULZX49EWFJeBdTat3iLSjhkc0+rMIUaRqwnszQNsQqlRbY5cYh9A2OiwzobyrZSGfYD/gEUfwKqKizIoFuBjVVyUQbFJ/KFKPkrGPoDiVZV8lEyxAONV8lEyReaA9cBZGRUq30pp2AdIzz4C9c6mhSDip6svoteWc+wDhMMWcL3A1XlEtWMGz2t35YLiLzKfGgF+5KhziBzG7LtSEVcuKB6go/c1cDNHfYYZvFERRy5xtpQQNUD2KGwnMbinIo5c4iyA2fcCRTxbtEaJh1dUwJMrnC/m5mZOA1MZymZU7QXtjlziPEBPeBpoAyRDbSMePabblBvcLae7AveA4SxNcY7kYLNGT65wvx9YNtOLMJmh+BDrFsnIXn22nGO/qS9Eqn89lm8iZ8v5CcvaR3fosR5rzihtR9ZxagrLaAGmM9SVGMYYw9HdWpw5pLQR+EU82oTiPpD5d/oVOLgwXwqTiIaA/oVvs8CXPK3eIBzHDDwsVKa8PbEZGAejGficodYBd0hEzYL3JWM9/DEPUAOsyfNpQHHNzkJ5I/CLS7EdWHIXqM/ShRTfa07g93/7rcVjbSgZcdV3V6BgWz2nEp19k/iMJuBllq7ooHb2KcmBXQDEI4dQkkLXD6ezEACp6GrmuQocyNPTE4StwBLXdW1GQG8AABFFInYSxRmgVkvNij9CmSglmIGzGFYDMKG9fg6VO5nrDD3n/UwjQitCulLd6H+E8nExvArfUj9KdQNrXd9f1Tlgx9DQcuqsVpQcAXY6ukdIYwYKHvFXN0AmicgWxNiPkkZQ20Dq+fs9ksYQk6PB2//GpIeHh8ei5yePyK8E5ckfwQAAAABJRU5ErkJggg=="/>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300/?blur=2" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kiran@Vlit</h1>
+            <p class="message">Call Me Once</p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA/wD/AP+gvaeTAAAA2ElEQVRIie3UP0oDQRiG8d+kEJMg5gqJRwhCsLYR8VJ6inSSQ8Qb6CWiWKRQCCSgCDZqsRtYw84G3ElA2Ac+GOYdeJh/Hw0N+yagh0uMMEAfR+jiEG184BNveMcTZrjHXT5XRgfXGMIC3zXqNSI5x2O+ZqmmZF1Fehjjq5AnF11hXpInFd1W5MtQsvW/EGRHFSL5qpVAUpRFSSmqJKWo8gpSiibbFvy7570m+mFfakoWkZP61YKCrHle4AwneXVxjIN8vNlUn2WN9QFTrCKyDm5wGskbGnbID/YMsVvkC4dpAAAAAElFTkSuQmCC"/>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200/300.webp" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Kishore@Vlit</h1>
+            <p class="message">What about your Joining date</p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAC3UlEQVRoge2YTWgTQRiGn9lgrfUPEYqKCHoXlArSCupF8NCCBy8etIdSWrulaoQ2iSABaZO0iiJNYixS8aAieBFE7FWpWIpeREHRgx5K9CDUv9ra/bxUTWKy2U0mEcs+kEPenf3mfTM72ZkBDw8PD48yULZX49EWFJeBdTat3iLSjhkc0+rMIUaRqwnszQNsQqlRbY5cYh9A2OiwzobyrZSGfYD/gEUfwKqKizIoFuBjVVyUQbFJ/KFKPkrGPoDiVZV8lEyxAONV8lEyReaA9cBZGRUq30pp2AdIzz4C9c6mhSDip6svoteWc+wDhMMWcL3A1XlEtWMGz2t35YLiLzKfGgF+5KhziBzG7LtSEVcuKB6go/c1cDNHfYYZvFERRy5xtpQQNUD2KGwnMbinIo5c4iyA2fcCRTxbtEaJh1dUwJMrnC/m5mZOA1MZymZU7QXtjlziPEBPeBpoAyRDbSMePabblBvcLae7AveA4SxNcY7kYLNGT65wvx9YNtOLMJmh+BDrFsnIXn22nGO/qS9Eqn89lm8iZ8v5CcvaR3fosR5rzihtR9ZxagrLaAGmM9SVGMYYw9HdWpw5pLQR+EU82oTiPpD5d/oVOLgwXwqTiIaA/oVvs8CXPK3eIBzHDDwsVKa8PbEZGAejGficodYBd0hEzYL3JWM9/DEPUAOsyfNpQHHNzkJ5I/CLS7EdWHIXqM/ShRTfa07g93/7rcVjbSgZcdV3V6BgWz2nEp19k/iMJuBllq7ooHb2KcmBXQDEI4dQkkLXD6ezEACp6GrmuQocyNPTE4StwBLXdW1GQG8AABFFInYSxRmgVkvNij9CmSglmIGzGFYDMKG9fg6VO5nrDD3n/UwjQitCulLd6H+E8nExvArfUj9KdQNrXd9f1Tlgx9DQcuqsVpQcAXY6ukdIYwYKHvFXN0AmicgWxNiPkkZQ20Dq+fs9ksYQk6PB2//GpIeHh8ei5yePyK8E5ckfwQAAAABJRU5ErkJggg=="/>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/200" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Shekar@Vlit</h1>
+            <p class="message">Are you trying to get Government job??</p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAC3UlEQVRoge2YTWgTQRiGn9lgrfUPEYqKCHoXlArSCupF8NCCBy8etIdSWrulaoQ2iSABaZO0iiJNYixS8aAieBFE7FWpWIpeREHRgx5K9CDUv9ra/bxUTWKy2U0mEcs+kEPenf3mfTM72ZkBDw8PD48yULZX49EWFJeBdTat3iLSjhkc0+rMIUaRqwnszQNsQqlRbY5cYh9A2OiwzobyrZSGfYD/gEUfwKqKizIoFuBjVVyUQbFJ/KFKPkrGPoDiVZV8lEyxAONV8lEyReaA9cBZGRUq30pp2AdIzz4C9c6mhSDip6svoteWc+wDhMMWcL3A1XlEtWMGz2t35YLiLzKfGgF+5KhziBzG7LtSEVcuKB6go/c1cDNHfYYZvFERRy5xtpQQNUD2KGwnMbinIo5c4iyA2fcCRTxbtEaJh1dUwJMrnC/m5mZOA1MZymZU7QXtjlziPEBPeBpoAyRDbSMePabblBvcLae7AveA4SxNcY7kYLNGT65wvx9YNtOLMJmh+BDrFsnIXn22nGO/qS9Eqn89lm8iZ8v5CcvaR3fosR5rzihtR9ZxagrLaAGmM9SVGMYYw9HdWpw5pLQR+EU82oTiPpD5d/oVOLgwXwqTiIaA/oVvs8CXPK3eIBzHDDwsVKa8PbEZGAejGficodYBd0hEzYL3JWM9/DEPUAOsyfNpQHHNzkJ5I/CLS7EdWHIXqM/ShRTfa07g93/7rcVjbSgZcdV3V6BgWz2nEp19k/iMJuBllq7ooHb2KcmBXQDEI4dQkkLXD6ezEACp6GrmuQocyNPTE4StwBLXdW1GQG8AABFFInYSxRmgVkvNij9CmSglmIGzGFYDMKG9fg6VO5nrDD3n/UwjQitCulLd6H+E8nExvArfUj9KdQNrXd9f1Tlgx9DQcuqsVpQcAXY6ukdIYwYKHvFXN0AmicgWxNiPkkZQ20Dq+fs9ksYQk6PB2//GpIeHh8ei5yePyK8E5ckfwQAAAABJRU5ErkJggg=="/>
+    </div>
+    <div class="first-chat">
+        <img src="https://picsum.photos/id/1/200/300" alt="Avatar" class="avatar">
+        <div class="name-message-container">
+            <h1 class="name">Raghu@Vlit</h1>
+            <p class="message">Book Movie Tickets </p>
+        </div>
+        <img class="phoneImage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAC3UlEQVRoge2YTWgTQRiGn9lgrfUPEYqKCHoXlArSCupF8NCCBy8etIdSWrulaoQ2iSABaZO0iiJNYixS8aAieBFE7FWpWIpeREHRgx5K9CDUv9ra/bxUTWKy2U0mEcs+kEPenf3mfTM72ZkBDw8PD48yULZX49EWFJeBdTat3iLSjhkc0+rMIUaRqwnszQNsQqlRbY5cYh9A2OiwzobyrZSGfYD/gEUfwKqKizIoFuBjVVyUQbFJ/KFKPkrGPoDiVZV8lEyxAONV8lEyReaA9cBZGRUq30pp2AdIzz4C9c6mhSDip6svoteWc+wDhMMWcL3A1XlEtWMGz2t35YLiLzKfGgF+5KhziBzG7LtSEVcuKB6go/c1cDNHfYYZvFERRy5xtpQQNUD2KGwnMbinIo5c4iyA2fcCRTxbtEaJh1dUwJMrnC/m5mZOA1MZymZU7QXtjlziPEBPeBpoAyRDbSMePabblBvcLae7AveA4SxNcY7kYLNGT65wvx9YNtOLMJmh+BDrFsnIXn22nGO/qS9Eqn89lm8iZ8v5CcvaR3fosR5rzihtR9ZxagrLaAGmM9SVGMYYw9HdWpw5pLQR+EU82oTiPpD5d/oVOLgwXwqTiIaA/oVvs8CXPK3eIBzHDDwsVKa8PbEZGAejGficodYBd0hEzYL3JWM9/DEPUAOsyfNpQHHNzkJ5I/CLS7EdWHIXqM/ShRTfa07g93/7rcVjbSgZcdV3V6BgWz2nEp19k/iMJuBllq7ooHb2KcmBXQDEI4dQkkLXD6ezEACp6GrmuQocyNPTE4StwBLXdW1GQG8AABFFInYSxRmgVkvNij9CmSglmIGzGFYDMKG9fg6VO5nrDD3n/UwjQitCulLd6H+E8nExvArfUj9KdQNrXd9f1Tlgx9DQcuqsVpQcAXY6ukdIYwYKHvFXN0AmicgWxNiPkkZQ20Dq+fs9ksYQk6PB2//GpIeHh8ei5yePyK8E5ckfwQAAAABJRU5ErkJggg=="/>
+    </div>
+</div>
+ </div>
+</body>
+</html>

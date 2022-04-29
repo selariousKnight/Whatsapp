@@ -1,0 +1,126 @@
+
+body{
+    margin: 0px;
+}
+
+.bg-container{
+    background-color:#ECE5DD ;
+    background-size: cover;
+    height: 100vh;
+    font-family: Helvetica;
+    margin-top: 0px;
+    font-weight: bold;
+    height: 100%;
+}
+.header{
+    background-color:#128c7e ;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.name-container{
+    
+    display: flex;
+    justify-content: flex-start;
+    height: 10%;
+}
+.main-headng{
+    color:#B6B6B6;
+    font-size: 40px;
+    margin-left: 30px;
+    flex-grow: 1;
+}
+.search-icon{
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.options-icon{
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+        
+}
+.calls-and-staus-section{
+    display: flex;
+    justify-content: space-around;
+}
+.camera-image{
+    width:20%
+    
+}
+.status-chats{
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    margin-left: 10px;
+    color: #455A64;
+    margin-right: 10px;
+}
+.status-calls{
+    background-color: transparent;
+    border-style: none;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #455A64;
+    margin-right: 10px;
+}
+.status-status{
+    background-color: transparent;
+    border-style: none;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #455A64;
+    margin-right: 10px;
+}
+.chat-container{
+    margin: 20px;
+}
+.profile-pic{
+    width:100px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    padding-top: 10px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.first-chat{
+      display: flex;
+      font-size: 10px;
+      
+}
+  .name-message-container{
+      margin-left: 20px;
+      flex-grow: 1;
+}
+.name{
+      color: rgb(24, 10, 10);
+}
+.message{
+      color:grey;
+}
+.statusContainer{
+      margin-left: 20px;
+      display: none;
+      
+}
+.view-Updates{
+      display: flex;
+      justify-content: start;
+  }
+.calling-section{
+    display: flex;
+    font-size: 10px;
+}
+.phoneImage{
+      font-size: 2px;
+      
+  }
+.calls-container{
+    margin: 20px;
+    display: none;
+}
